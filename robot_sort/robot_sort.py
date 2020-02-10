@@ -97,8 +97,31 @@ class SortingRobot:
         Sort the robot's list.
         """
         # Fill this out
-        pass
 
+
+  #swapped = false
+  
+    # set_light_off() 
+    # for i = 1 to indexOfLastUnsortedElement-1
+
+   # if leftElement > rightElement
+
+    #  swap(leftElement, rightElement)
+
+     # swapped = true
+     
+
+#while swapped
+
+
+
+
+        for i in range(len(list)):
+            for j in range(0, len(list)-i-1):
+                if list[j] > list[j+1]:
+                    # compare_item(j ) and compare_item(j+1)
+                    list[j], list[j+1] = list[j+1], list[j]
+                    # light_is_on()
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
