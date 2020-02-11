@@ -93,6 +93,7 @@ class SortingRobot:
         return self._light == "ON"
 
     def sort(self):
+
         """
         Sort the robot's list.
         """
@@ -112,16 +113,35 @@ class SortingRobot:
      
 
 #while swapped
+        
+        # rhs = [r for r in list[1:] if r > l[0]]
+        # lhs = [b for b in list[1:] if b < l[0]]
+        # light_is_on()
+
+        while set_light_on():
+            return set_light_off()
+            for item[l] in range(0, len(l)-1):
+               move_right() and l[:len(l)//2].compare_item()
+            if move_left() > move_right() and light_is_on() == True:
+            # if lhs > rhs and light_is_on() == True:
+                return move_right() and l[0].swap_item() and set_light_on()
+       
+        return l
+
+            # if can_move_right() == True and light_is_on():
+            #     return move_right() + swap_item(l[len(l) - 1: ])
+            # for j in range(i, len(l)):
+            #     if l[len(l)-1: ] > l[j]:
 
 
+        
 
-
-        for i in range(len(list)):
-            for j in range(0, len(list)-i-1):
-                if list[j] > list[j+1]:
-                    # compare_item(j ) and compare_item(j+1)
-                    list[j], list[j+1] = list[j+1], list[j]
-                    # light_is_on()
+        # for i in range(len(list)):
+        #     for j in range(0, len(list)-i-1):
+        #         if list[j] > list[j+1]:
+        #             # compare_item(j ) and compare_item(j+1)
+        #             list[j], list[j+1] = list[j+1], list[j]
+        #             # light_is_on()
 
 if __name__ == "__main__":
     # Test our your implementation from the command line
