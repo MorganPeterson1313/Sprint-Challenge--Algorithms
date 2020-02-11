@@ -8,7 +8,7 @@ a) this one looks linear O(n) because of its number of operations
 b) O(n)
 
 
-c) O(2^n) because of the recursive call
+c) O(1^n) because of the recursive call
 
 ## Exercise II
 
